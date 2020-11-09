@@ -12,6 +12,17 @@
 <body>
     <div id='app'>
         <div :class="an?'test':'test1'" @click="go()"></div>
+        <!-- 箭头 -->
+        <div class="prize_box">
+            个人测试
+            <!-- <div class="right_top"></div>
+      <div class="right_bottom"></div>
+      <div class="left_middle"></div>
+      <div class="left_middle_black"></div>
+      <div class="right_top_black"></div>
+      <div class="right_bottom_black"></div>
+      <div class="left_middle_white"></div>-->
+        </div>
     </div>
 </body>
 <script>
@@ -26,7 +37,7 @@
         mounted() {},
         methods: {
             go() {
-                this.an = !this.an; 
+                this.an = !this.an;
                 console.log('111');
 
             }
